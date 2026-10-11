@@ -1,0 +1,399 @@
+media:
+  input: assets
+  output: /assets
+  rename: safe
+  categories:
+  - image
+content:
+- name: inicio
+  label: Página inicial · fotografias
+  type: file
+  path: data/home.json
+  format: json
+  fields:
+  - name: photos
+    label: Fotos da página inicial
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Título da foto
+      type: string
+      required: true
+    - name: image
+      label: Fotografia
+      type: image
+      required: true
+    - name: thumbnail
+      label: Miniatura (opcional)
+      type: image
+    - name: alt
+      label: Descrição acessível
+      type: string
+    - name: subtitle
+      label: Texto abaixo do título
+      type: string
+    - name: category
+      label: Categoria / filtro
+      type: select
+      options:
+        values:
+        - name: ensaios
+          label: Ensaios
+        - name: gestantes
+          label: Gestantes
+        - name: formaturas
+          label: Formaturas
+        - name: eventos
+          label: Eventos
+        - name: produtos
+          label: Gastronomia & Produtos
+        - name: empresas
+          label: Empresas
+    - name: tall
+      label: Mostrar como cartão quadrado
+      type: boolean
+      default: false
+    - name: monochrome
+      label: Mostrar em preto e branco
+      type: boolean
+      default: false
+- name: ensaios
+  label: Galeria · Ensaios
+  type: file
+  path: data/ensaios.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: gestantes
+  label: Galeria · Gestantes
+  type: file
+  path: data/gestantes.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: formaturas
+  label: Galeria · Formaturas
+  type: file
+  path: data/formaturas.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: eventos
+  label: Galeria · Eventos
+  type: file
+  path: data/eventos.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: produtos
+  label: Galeria · Gastronomia & Produtos
+  type: file
+  path: data/produtos.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: empresas
+  label: Galeria · Empresas
+  type: file
+  path: data/empresas.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false

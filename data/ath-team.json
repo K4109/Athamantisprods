@@ -1,0 +1,23 @@
+{
+  "heading": "QUEM DÁ VIDA ÀS IDEIAS",
+  "members": [
+    {
+      "name": "Kaio Mendes",
+      "role": "Fotógrafo / criador da Athamantis",
+      "photo": "assets/kaio0.jpg",
+      "alt": "Kaio Mendes, fotógrafo e criador da Athamantis",
+      "photo_caption": "KAIO MENDES / POR TRÁS DA CÂMERA",
+      "eyebrow": "PRAZER, KAIO.",
+      "headline1": "ANTES DA FOTO,",
+      "headline2": "A CONEXÃO.",
+      "bio": "Sou Kaio Mendes, fotógrafo e criador da Athamantis, em Itaboraí. Meu trabalho passa por pessoas, eventos, gastronomia e pelas imagens que dão presença a um negócio.\n\nPara mim, fotografar também é fazer alguém se sentir bem consigo. Você não precisa chegar sabendo posar: vamos conversar, encontrar seu ritmo e construir as imagens com tranquilidade.\n\nGosto de descobrir algo interessante nos lugares comuns. A luz, um gesto e os detalhes ajudam a contar o que as palavras nem sempre alcançam.",
+      "visible": true,
+      "links": [
+        {
+          "label": "Conheça meu perfil pessoal",
+          "url": "https://www.instagram.com/kaiosmendes/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "services": [
+    {
+      "name": "Ensaio externo",
+      "start": "R$ 120",
+      "note": "Uma sessão ao ar livre, com direção e tratamento das imagens.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "12 fotos",
+          "price": "R$ 120"
+        },
+        {
+          "label": "18 fotos",
+          "price": "R$ 180"
+        },
+        {
+          "label": "25 fotos",
+          "price": "R$ 250"
+        }
+      ]
+    },
+    {
+      "name": "Ensaio em estúdio",
+      "start": "R$ 120 + aluguel",
+      "note": "Aluguel do estúdio cobrado à parte, definido antes da contratação.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "12 fotos",
+          "price": "R$ 120"
+        },
+        {
+          "label": "18 fotos",
+          "price": "R$ 180"
+        },
+        {
+          "label": "25 fotos",
+          "price": "R$ 250"
+        }
+      ]
+    },
+    {
+      "name": "Eventos sociais",
+      "start": "R$ 250",
+      "note": "Cobertura e quantidade de imagens entregues alinhadas no orçamento.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Até 2 horas",
+          "price": "R$ 250"
+        },
+        {
+          "label": "Até 4 horas",
+          "price": "R$ 450"
+        },
+        {
+          "label": "Até 6 horas",
+          "price": "R$ 650"
+        }
+      ]
+    },
+    {
+      "name": "Produtos",
+      "start": "R$ 180",
+      "note": "Para gastronomia, cardápios, delivery e produtos. Produções especiais sob consulta.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Até 5 produtos · 10 fotos",
+          "price": "R$ 180"
+        },
+        {
+          "label": "Até 10 produtos · 20 fotos",
+          "price": "R$ 320"
+        },
+        {
+          "label": "Até 15 produtos · 30 fotos",
+          "price": "R$ 450"
+        }
+      ]
+    },
+    {
+      "name": "Fotos para empresas",
+      "start": "R$ 250",
+      "note": "Imagens do espaço, da equipe e do trabalho. Escopo combinado para cada negócio.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Até 1h · 15 fotos",
+          "price": "R$ 250"
+        },
+        {
+          "label": "Até 2h · 30 fotos",
+          "price": "R$ 450"
+        },
+        {
+          "label": "Até 3h · 45 fotos",
+          "price": "R$ 650"
+        }
+      ]
+    }
+  ]
+}

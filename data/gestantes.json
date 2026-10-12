@@ -1,0 +1,164 @@
+{
+  "series": [
+    {
+      "id": "assinatura",
+      "title": "Seleção de abertura",
+      "eyebrow": "O OLHAR ATHAMANTIS",
+      "description": "",
+      "photos": [
+        {
+          "title": "O Amor se Multiplica",
+          "image": "/assets/gestante0.jpg",
+          "thumbnail": "/assets/gestante0.jpg",
+          "alt": "Gestantes: fotografia por Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Onde a Vida Floresce",
+          "image": "/assets/gestante1.jpg",
+          "thumbnail": "/assets/gestante1.jpg",
+          "alt": "Gestantes: fotografia por Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Laços que Permanecem",
+          "image": "/assets/gestante2.jpg",
+          "thumbnail": "/assets/gestante2.jpg",
+          "alt": "Gestantes: fotografia por Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-0",
+      "title": "A espera ao ar livre",
+      "eyebrow": "06 FOTOGRAFIAS · GESTANTES",
+      "description": "Iasmin: a espera, o encontro e o afeto em família.",
+      "photos": [
+        {
+          "title": "A Espera em Vermelho",
+          "image": "/assets/portfolio/05-00.jpg",
+          "thumbnail": "/assets/portfolio/05-00-small.webp",
+          "alt": "A Espera em Vermelho — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Entre o Verde e o Afeto",
+          "image": "/assets/portfolio/05-03.jpg",
+          "thumbnail": "/assets/portfolio/05-03-small.webp",
+          "alt": "Entre o Verde e o Afeto — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Um Beijo para Quem Chega",
+          "image": "/assets/portfolio/05-11.jpg",
+          "thumbnail": "/assets/portfolio/05-11-small.webp",
+          "alt": "Um Beijo para Quem Chega — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Já Somos Companhia",
+          "image": "/assets/portfolio/05-12.jpg",
+          "thumbnail": "/assets/portfolio/05-12-small.webp",
+          "alt": "Já Somos Companhia — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Vida sob as Folhas",
+          "image": "/assets/portfolio/05-14.jpg",
+          "thumbnail": "/assets/portfolio/05-14-small.webp",
+          "alt": "Vida sob as Folhas — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "A Delicadeza da Espera",
+          "image": "/assets/portfolio/05-15.jpg",
+          "thumbnail": "/assets/portfolio/05-15-small.webp",
+          "alt": "A Delicadeza da Espera — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "Contornos da espera",
+      "eyebrow": "06 FOTOGRAFIAS · GESTANTES",
+      "description": "Retratos de maternidade entre luz de janela, gestos e silhuetas.",
+      "photos": [
+        {
+          "title": "A Espera em Terracota",
+          "image": "/assets/portfolio/10-04.jpg",
+          "thumbnail": "/assets/portfolio/10-04-small.webp",
+          "alt": "A Espera em Terracota — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Coração entre as Mãos",
+          "image": "/assets/portfolio/10-05.jpg",
+          "thumbnail": "/assets/portfolio/10-05-small.webp",
+          "alt": "Coração entre as Mãos — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Pequenas Roupas, Novos Planos",
+          "image": "/assets/portfolio/10-08.jpg",
+          "thumbnail": "/assets/portfolio/10-08-small.webp",
+          "alt": "Pequenas Roupas, Novos Planos — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Luz que Acolhe",
+          "image": "/assets/portfolio/10-11.jpg",
+          "thumbnail": "/assets/portfolio/10-11-small.webp",
+          "alt": "Luz que Acolhe — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "O Contorno da Vida",
+          "image": "/assets/portfolio/10-15.jpg",
+          "thumbnail": "/assets/portfolio/10-15-small.webp",
+          "alt": "O Contorno da Vida — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        },
+        {
+          "title": "Afeto em Branco",
+          "image": "/assets/portfolio/10-22.jpg",
+          "thumbnail": "/assets/portfolio/10-22-small.webp",
+          "alt": "Afeto em Branco — Gestantes, fotografia de Kaio Mendes",
+          "subtitle": "GESTANTES",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "acervo",
+      "title": "O afeto cresce",
+      "eyebrow": "ACERVO ATHAMANTIS",
+      "description": "Retratos de maternidade do acervo Athamantis.",
+      "photos": [
+        {
+          "title": "A Espera em Luz Suave",
+          "image": "/assets/portfolio/archive-gestantes-04.jpg",
+          "thumbnail": "/assets/portfolio/archive-gestantes-04-small.webp",
+          "alt": "A Espera em Luz Suave — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

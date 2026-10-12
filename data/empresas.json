@@ -1,0 +1,84 @@
+{
+  "series": [
+    {
+      "id": "serie-0",
+      "title": "Conhecimento em movimento",
+      "eyebrow": "04 FOTOGRAFIAS · EMPRESAS",
+      "description": "Treinamento, atenção e troca dentro da barbearia.",
+      "photos": [
+        {
+          "title": "A Aula Acontece",
+          "image": "/assets/portfolio/00-03.jpg",
+          "thumbnail": "/assets/portfolio/00-03-small.webp",
+          "alt": "A Aula Acontece — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "O Gesto de Ensinar",
+          "image": "/assets/portfolio/00-07.jpg",
+          "thumbnail": "/assets/portfolio/00-07-small.webp",
+          "alt": "O Gesto de Ensinar — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "Entre Olhares Atentos",
+          "image": "/assets/portfolio/00-12.jpg",
+          "thumbnail": "/assets/portfolio/00-12-small.webp",
+          "alt": "Entre Olhares Atentos — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "Quem Faz Acontecer",
+          "image": "/assets/portfolio/00-13.jpg",
+          "thumbnail": "/assets/portfolio/00-13-small.webp",
+          "alt": "Quem Faz Acontecer — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "Presença profissional",
+      "eyebrow": "04 FOTOGRAFIAS · EMPRESAS",
+      "description": "Retratos de quem constrói a identidade de um negócio.",
+      "photos": [
+        {
+          "title": "Confiança no Olhar",
+          "image": "/assets/portfolio/03-00.jpg",
+          "thumbnail": "/assets/portfolio/03-00-small.webp",
+          "alt": "Confiança no Olhar — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "Uma Identidade em Dupla",
+          "image": "/assets/portfolio/03-03.jpg",
+          "thumbnail": "/assets/portfolio/03-03-small.webp",
+          "alt": "Uma Identidade em Dupla — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "Instrumentos do Ofício",
+          "image": "/assets/portfolio/03-05.jpg",
+          "thumbnail": "/assets/portfolio/03-05-small.webp",
+          "alt": "Instrumentos do Ofício — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        },
+        {
+          "title": "Perfil de Quem Cria",
+          "image": "/assets/portfolio/03-06.jpg",
+          "thumbnail": "/assets/portfolio/03-06-small.webp",
+          "alt": "Perfil de Quem Cria — Empresas, fotografia de Kaio Mendes",
+          "subtitle": "EMPRESAS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

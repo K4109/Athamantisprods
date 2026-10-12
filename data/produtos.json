@@ -1,0 +1,156 @@
+{
+  "series": [
+    {
+      "id": "assinatura",
+      "title": "Seleção de abertura",
+      "eyebrow": "O OLHAR ATHAMANTIS",
+      "description": "",
+      "photos": [
+        {
+          "title": "Temperos sobre Carvão",
+          "image": "/assets/product.png",
+          "thumbnail": "/assets/product.png",
+          "alt": "Gastronomia & produtos: fotografia por Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Costelas ao Fogo de Chão",
+          "image": "/assets/food.png",
+          "thumbnail": "/assets/food.png",
+          "alt": "Gastronomia & produtos: fotografia por Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-0",
+      "title": "Texturas à mesa",
+      "eyebrow": "04 FOTOGRAFIAS · GASTRONOMIA & PRODUTOS",
+      "description": "Coxinhas em composições que revelam a casquinha, o recheio e o dourado.",
+      "photos": [
+        {
+          "title": "Dourado por Fora",
+          "image": "/assets/portfolio/01-07.jpg",
+          "thumbnail": "/assets/portfolio/01-07-small.webp",
+          "alt": "Dourado por Fora — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Recheio em Evidência",
+          "image": "/assets/portfolio/01-13.jpg",
+          "thumbnail": "/assets/portfolio/01-13-small.webp",
+          "alt": "Recheio em Evidência — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Frango em Camadas",
+          "image": "/assets/portfolio/01-20.jpg",
+          "thumbnail": "/assets/portfolio/01-20-small.webp",
+          "alt": "Frango em Camadas — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sabor em Composição",
+          "image": "/assets/portfolio/01-23.jpg",
+          "thumbnail": "/assets/portfolio/01-23-small.webp",
+          "alt": "Sabor em Composição — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "Fogo, textura e sabor",
+      "eyebrow": "06 FOTOGRAFIAS · GASTRONOMIA & PRODUTOS",
+      "description": "Preparo, temperos e cortes fotografados na Brasaria Papucaia.",
+      "photos": [
+        {
+          "title": "O Corte da Cebola",
+          "image": "/assets/portfolio/20-01.jpg",
+          "thumbnail": "/assets/portfolio/20-01-small.webp",
+          "alt": "O Corte da Cebola — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Tempero em Queda",
+          "image": "/assets/portfolio/20-06.jpg",
+          "thumbnail": "/assets/portfolio/20-06-small.webp",
+          "alt": "Tempero em Queda — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Dry Rub à Luz Natural",
+          "image": "/assets/portfolio/20-07.jpg",
+          "thumbnail": "/assets/portfolio/20-07-small.webp",
+          "alt": "Dry Rub à Luz Natural — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Dourado na Brasa",
+          "image": "/assets/portfolio/20-12.jpg",
+          "thumbnail": "/assets/portfolio/20-12-small.webp",
+          "alt": "Dourado na Brasa — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Ponto do Corte",
+          "image": "/assets/portfolio/20-17.jpg",
+          "thumbnail": "/assets/portfolio/20-17-small.webp",
+          "alt": "O Ponto do Corte — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Espetos em Composição",
+          "image": "/assets/portfolio/20-18.jpg",
+          "thumbnail": "/assets/portfolio/20-18-small.webp",
+          "alt": "Espetos em Composição — Gastronomia & Produtos, fotografia de Kaio Mendes",
+          "subtitle": "GASTRONOMIA & PRODUTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "acervo",
+      "title": "Vinho em cena",
+      "eyebrow": "ACERVO ATHAMANTIS",
+      "description": "Vidro, vinho e luz em composições de produto e serviço.",
+      "photos": [
+        {
+          "title": "O Ritual de Servir",
+          "image": "/assets/portfolio/archive-comidas-01.jpg",
+          "thumbnail": "/assets/portfolio/archive-comidas-01-small.webp",
+          "alt": "O Ritual de Servir — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Vinho, Vidro e Reflexos",
+          "image": "/assets/portfolio/archive-comidas-02.jpg",
+          "thumbnail": "/assets/portfolio/archive-comidas-02-small.webp",
+          "alt": "Vinho, Vidro e Reflexos — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Rótulos na Luz",
+          "image": "/assets/portfolio/archive-comidas-03.jpg",
+          "thumbnail": "/assets/portfolio/archive-comidas-03-small.webp",
+          "alt": "Rótulos na Luz — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

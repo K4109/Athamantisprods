@@ -1,0 +1,604 @@
+{
+  "series": [
+    {
+      "id": "assinatura",
+      "title": "Seleção de abertura",
+      "eyebrow": "O OLHAR ATHAMANTIS",
+      "description": "",
+      "photos": [
+        {
+          "title": "Última Luz",
+          "image": "/assets/bench.jpeg",
+          "thumbnail": "/assets/bench.jpeg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Entre Luz e Sombras",
+          "image": "/assets/portrait.jpeg",
+          "thumbnail": "/assets/portrait.jpeg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Caminho Dourado",
+          "image": "/assets/walk.jpeg",
+          "thumbnail": "/assets/walk.jpeg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Entre Folhas",
+          "image": "/assets/ensaio0.jpg",
+          "thumbnail": "/assets/ensaio0.jpg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Promessa em Branco",
+          "image": "/assets/ensaio1.jpg",
+          "thumbnail": "/assets/ensaio1.jpg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Antes do Sim",
+          "image": "/assets/ensaio2.jpg",
+          "thumbnail": "/assets/ensaio2.jpg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Véu de Luz",
+          "image": "/assets/ensaio3.jpg",
+          "thumbnail": "/assets/ensaio3.jpg",
+          "alt": "Ensaios: fotografia por Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-0",
+      "title": "Retratos entre folhas",
+      "eyebrow": "02 FOTOGRAFIAS · ENSAIOS",
+      "description": "Luz filtrada, vegetação e a força de um olhar.",
+      "photos": [
+        {
+          "title": "Luz em Travessia",
+          "image": "/assets/portfolio/04-09.jpg",
+          "thumbnail": "/assets/portfolio/04-09-small.webp",
+          "alt": "Luz em Travessia — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Por Entre o Verde",
+          "image": "/assets/portfolio/04-10.jpg",
+          "thumbnail": "/assets/portfolio/04-10-small.webp",
+          "alt": "Por Entre o Verde — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "Pequenos encontros",
+      "eyebrow": "04 FOTOGRAFIAS · ENSAIOS",
+      "description": "Expressões da infância em retratos próximos e espontâneos.",
+      "photos": [
+        {
+          "title": "Olhos para o Alto",
+          "image": "/assets/portfolio/04-05.jpg",
+          "thumbnail": "/assets/portfolio/04-05-small.webp",
+          "alt": "Olhos para o Alto — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Do Outro Lado do Banco",
+          "image": "/assets/portfolio/04-08.jpg",
+          "thumbnail": "/assets/portfolio/04-08-small.webp",
+          "alt": "Do Outro Lado do Banco — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Mundo Acima",
+          "image": "/assets/portfolio/04-13.jpg",
+          "thumbnail": "/assets/portfolio/04-13-small.webp",
+          "alt": "Um Mundo Acima — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Sorriso de Lado",
+          "image": "/assets/portfolio/04-14.jpg",
+          "thumbnail": "/assets/portfolio/04-14-small.webp",
+          "alt": "Um Sorriso de Lado — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-2",
+      "title": "Leveza no jardim",
+      "eyebrow": "02 FOTOGRAFIAS · ENSAIOS",
+      "description": "Retratos ao ar livre, entre gestos e sorrisos.",
+      "photos": [
+        {
+          "title": "Entre Palmeiras",
+          "image": "/assets/portfolio/04-00.jpg",
+          "thumbnail": "/assets/portfolio/04-00-small.webp",
+          "alt": "Entre Palmeiras — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorriso entre Folhas",
+          "image": "/assets/portfolio/04-02.jpg",
+          "thumbnail": "/assets/portfolio/04-02-small.webp",
+          "alt": "Sorriso entre Folhas — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-3",
+      "title": "Encontro com o mar",
+      "eyebrow": "06 FOTOGRAFIAS · ENSAIOS",
+      "description": "Um ensaio de casal entre a orla, as ondas e o caminho.",
+      "photos": [
+        {
+          "title": "Um Beijo na Testa",
+          "image": "/assets/portfolio/06-02.jpg",
+          "thumbnail": "/assets/portfolio/06-02-small.webp",
+          "alt": "Um Beijo na Testa — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Dois diante do Mar",
+          "image": "/assets/portfolio/06-08.jpg",
+          "thumbnail": "/assets/portfolio/06-08-small.webp",
+          "alt": "Dois diante do Mar — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Riso entre Ondas",
+          "image": "/assets/portfolio/06-12.jpg",
+          "thumbnail": "/assets/portfolio/06-12-small.webp",
+          "alt": "Riso entre Ondas — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "A Água aos Nossos Pés",
+          "image": "/assets/portfolio/06-14.jpg",
+          "thumbnail": "/assets/portfolio/06-14-small.webp",
+          "alt": "A Água aos Nossos Pés — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Perto de Você",
+          "image": "/assets/portfolio/06-19.jpg",
+          "thumbnail": "/assets/portfolio/06-19-small.webp",
+          "alt": "Perto de Você — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Caminho a Dois",
+          "image": "/assets/portfolio/06-20.jpg",
+          "thumbnail": "/assets/portfolio/06-20-small.webp",
+          "alt": "O Caminho a Dois — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-4",
+      "title": "Quatro anos de descobertas",
+      "eyebrow": "05 FOTOGRAFIAS · ENSAIOS",
+      "description": "Infância, brincadeira e afeto ao ar livre.",
+      "photos": [
+        {
+          "title": "Quatro em Dourado",
+          "image": "/assets/portfolio/07-00.jpg",
+          "thumbnail": "/assets/portfolio/07-00-small.webp",
+          "alt": "Quatro em Dourado — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Beijo que Acolhe",
+          "image": "/assets/portfolio/07-06.jpg",
+          "thumbnail": "/assets/portfolio/07-06-small.webp",
+          "alt": "Beijo que Acolhe — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Afeto dos Dois Lados",
+          "image": "/assets/portfolio/07-12.jpg",
+          "thumbnail": "/assets/portfolio/07-12-small.webp",
+          "alt": "Afeto dos Dois Lados — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Pausa no Jardim",
+          "image": "/assets/portfolio/07-13.jpg",
+          "thumbnail": "/assets/portfolio/07-13-small.webp",
+          "alt": "Pausa no Jardim — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Alegria Vista de Perto",
+          "image": "/assets/portfolio/07-16.jpg",
+          "thumbnail": "/assets/portfolio/07-16-small.webp",
+          "alt": "Alegria Vista de Perto — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-5",
+      "title": "Entre flores e caminhos",
+      "eyebrow": "04 FOTOGRAFIAS · ENSAIOS",
+      "description": "Retratos com vegetação, flores e luz natural.",
+      "photos": [
+        {
+          "title": "Pausa no Campo",
+          "image": "/assets/portfolio/08-03.jpg",
+          "thumbnail": "/assets/portfolio/08-03-small.webp",
+          "alt": "Pausa no Campo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Olhar para Trás",
+          "image": "/assets/portfolio/08-04.jpg",
+          "thumbnail": "/assets/portfolio/08-04-small.webp",
+          "alt": "Olhar para Trás — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Sorriso e a Flor",
+          "image": "/assets/portfolio/08-06.jpg",
+          "thumbnail": "/assets/portfolio/08-06-small.webp",
+          "alt": "O Sorriso e a Flor — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Flores em Primeiro Plano",
+          "image": "/assets/portfolio/08-08.jpg",
+          "thumbnail": "/assets/portfolio/08-08-small.webp",
+          "alt": "Flores em Primeiro Plano — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-6",
+      "title": "Cor depois do anoitecer",
+      "eyebrow": "05 FOTOGRAFIAS · ENSAIOS",
+      "description": "Tay: retratos noturnos entre luzes urbanas, cor e atitude.",
+      "photos": [
+        {
+          "title": "A Cidade ao Fundo",
+          "image": "/assets/portfolio/11-00.jpg",
+          "thumbnail": "/assets/portfolio/11-00-small.webp",
+          "alt": "A Cidade ao Fundo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Entre Violeta e Âmbar",
+          "image": "/assets/portfolio/11-03.jpg",
+          "thumbnail": "/assets/portfolio/11-03-small.webp",
+          "alt": "Entre Violeta e Âmbar — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Olhar sob a Máscara",
+          "image": "/assets/portfolio/11-06.jpg",
+          "thumbnail": "/assets/portfolio/11-06-small.webp",
+          "alt": "Olhar sob a Máscara — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Gesto em Direção à Luz",
+          "image": "/assets/portfolio/11-11.jpg",
+          "thumbnail": "/assets/portfolio/11-11-small.webp",
+          "alt": "Gesto em Direção à Luz — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Presença na Noite",
+          "image": "/assets/portfolio/11-12.jpg",
+          "thumbnail": "/assets/portfolio/11-12-small.webp",
+          "alt": "Presença na Noite — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-7",
+      "title": "Entre águas e montanhas",
+      "eyebrow": "06 FOTOGRAFIAS · ENSAIOS",
+      "description": "Thami: cachoeira, paisagem e encontros no campo.",
+      "photos": [
+        {
+          "title": "Pausa junto à Cachoeira",
+          "image": "/assets/portfolio/12-00.jpg",
+          "thumbnail": "/assets/portfolio/12-00-small.webp",
+          "alt": "Pausa junto à Cachoeira — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Chapéu ao Alto",
+          "image": "/assets/portfolio/12-04.jpg",
+          "thumbnail": "/assets/portfolio/12-04-small.webp",
+          "alt": "Chapéu ao Alto — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sob o Céu do Campo",
+          "image": "/assets/portfolio/12-07.jpg",
+          "thumbnail": "/assets/portfolio/12-07-small.webp",
+          "alt": "Sob o Céu do Campo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Caminhos em Companhia",
+          "image": "/assets/portfolio/12-14.jpg",
+          "thumbnail": "/assets/portfolio/12-14-small.webp",
+          "alt": "Caminhos em Companhia — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Encontro com o Cavalo",
+          "image": "/assets/portfolio/12-19.jpg",
+          "thumbnail": "/assets/portfolio/12-19-small.webp",
+          "alt": "Encontro com o Cavalo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorriso no Campo",
+          "image": "/assets/portfolio/12-22.jpg",
+          "thumbnail": "/assets/portfolio/12-22-small.webp",
+          "alt": "Sorriso no Campo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-8",
+      "title": "Uma tarde a dois",
+      "eyebrow": "06 FOTOGRAFIAS · ENSAIOS",
+      "description": "Will e Fernanda entre o jardim, o piquenique e a luz.",
+      "photos": [
+        {
+          "title": "Um Toque no Rosto",
+          "image": "/assets/portfolio/13-00.jpg",
+          "thumbnail": "/assets/portfolio/13-00-small.webp",
+          "alt": "Um Toque no Rosto — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Piquenique à Beira d’Água",
+          "image": "/assets/portfolio/13-07.jpg",
+          "thumbnail": "/assets/portfolio/13-07-small.webp",
+          "alt": "Piquenique à Beira d’Água — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Descanso em Teu Colo",
+          "image": "/assets/portfolio/13-10.jpg",
+          "thumbnail": "/assets/portfolio/13-10-small.webp",
+          "alt": "Descanso em Teu Colo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Abraço no Ar",
+          "image": "/assets/portfolio/13-13.jpg",
+          "thumbnail": "/assets/portfolio/13-13-small.webp",
+          "alt": "Um Abraço no Ar — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Girassol entre Nós",
+          "image": "/assets/portfolio/13-19.jpg",
+          "thumbnail": "/assets/portfolio/13-19-small.webp",
+          "alt": "Girassol entre Nós — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Campo para Nós Dois",
+          "image": "/assets/portfolio/13-21.jpg",
+          "thumbnail": "/assets/portfolio/13-21-small.webp",
+          "alt": "O Campo para Nós Dois — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-9",
+      "title": "O branco e a luz",
+      "eyebrow": "06 FOTOGRAFIAS · ENSAIOS",
+      "description": "Thalia: dos preparativos aos retratos com o vestido de noiva.",
+      "photos": [
+        {
+          "title": "Antes do Penteado",
+          "image": "/assets/portfolio/14-00.jpg",
+          "thumbnail": "/assets/portfolio/14-00-small.webp",
+          "alt": "Antes do Penteado — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "A Pausa Antes",
+          "image": "/assets/portfolio/14-04.jpg",
+          "thumbnail": "/assets/portfolio/14-04-small.webp",
+          "alt": "A Pausa Antes — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Véu ao Vento",
+          "image": "/assets/portfolio/14-07.jpg",
+          "thumbnail": "/assets/portfolio/14-07-small.webp",
+          "alt": "Véu ao Vento — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Branco em Escala",
+          "image": "/assets/portfolio/14-11.jpg",
+          "thumbnail": "/assets/portfolio/14-11-small.webp",
+          "alt": "Branco em Escala — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Olhar sobre o Ombro",
+          "image": "/assets/portfolio/14-18.jpg",
+          "thumbnail": "/assets/portfolio/14-18-small.webp",
+          "alt": "Olhar sobre o Ombro — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Buquê na Luz",
+          "image": "/assets/portfolio/14-23.jpg",
+          "thumbnail": "/assets/portfolio/14-23-small.webp",
+          "alt": "Buquê na Luz — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-10",
+      "title": "Infância em flor",
+      "eyebrow": "06 FOTOGRAFIAS · ENSAIOS",
+      "description": "Isabelle: descobertas e sorrisos no jardim.",
+      "photos": [
+        {
+          "title": "Em Pé para o Mundo",
+          "image": "/assets/portfolio/15-01.jpg",
+          "thumbnail": "/assets/portfolio/15-01-small.webp",
+          "alt": "Em Pé para o Mundo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Riso no Colo",
+          "image": "/assets/portfolio/15-07.jpg",
+          "thumbnail": "/assets/portfolio/15-07-small.webp",
+          "alt": "Riso no Colo — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Pequenos Passos em Rosa",
+          "image": "/assets/portfolio/15-09.jpg",
+          "thumbnail": "/assets/portfolio/15-09-small.webp",
+          "alt": "Pequenos Passos em Rosa — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Alegria sem Ensaio",
+          "image": "/assets/portfolio/15-12.jpg",
+          "thumbnail": "/assets/portfolio/15-12-small.webp",
+          "alt": "Alegria sem Ensaio — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "Luz no Sorriso",
+          "image": "/assets/portfolio/15-16.jpg",
+          "thumbnail": "/assets/portfolio/15-16-small.webp",
+          "alt": "Luz no Sorriso — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        },
+        {
+          "title": "De Mãos Dadas",
+          "image": "/assets/portfolio/15-18.jpg",
+          "thumbnail": "/assets/portfolio/15-18-small.webp",
+          "alt": "De Mãos Dadas — Ensaios, fotografia de Kaio Mendes",
+          "subtitle": "ENSAIOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "acervo",
+      "title": "Outras luzes, outros encontros",
+      "eyebrow": "ACERVO ATHAMANTIS",
+      "description": "Retratos do acervo Athamantis: folhas, luz natural e expressão.",
+      "photos": [
+        {
+          "title": "Luz no Caminho",
+          "image": "/assets/portfolio/archive-ensaios-05.jpg",
+          "thumbnail": "/assets/portfolio/archive-ensaios-05-small.webp",
+          "alt": "Luz no Caminho — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Retrato de uma Tarde",
+          "image": "/assets/portfolio/archive-ensaios-06.jpg",
+          "thumbnail": "/assets/portfolio/archive-ensaios-06-small.webp",
+          "alt": "Retrato de uma Tarde — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Alegria em Rosa",
+          "image": "/assets/portfolio/archive-ensaios-08.jpg",
+          "thumbnail": "/assets/portfolio/archive-ensaios-08-small.webp",
+          "alt": "Alegria em Rosa — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

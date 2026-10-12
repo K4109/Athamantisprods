@@ -1,0 +1,460 @@
+{
+  "series": [
+    {
+      "id": "assinatura",
+      "title": "Seleção de abertura",
+      "eyebrow": "O OLHAR ATHAMANTIS",
+      "description": "",
+      "photos": [
+        {
+          "title": "Antes do Brinde",
+          "image": "/assets/event.png",
+          "thumbnail": "/assets/event.png",
+          "alt": "Eventos: fotografia por Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Voz sob a Luz",
+          "image": "/assets/music.png",
+          "thumbnail": "/assets/music.png",
+          "alt": "Eventos: fotografia por Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorriso em Cena",
+          "image": "/assets/live.png",
+          "thumbnail": "/assets/live.png",
+          "alt": "Eventos: fotografia por Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-0",
+      "title": "Brasaria: encontros e música",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Bastidores, público e apresentações em um encontro gastronômico.",
+      "photos": [
+        {
+          "title": "A Mesa de Quem Faz",
+          "image": "/assets/portfolio/17-01.jpg",
+          "thumbnail": "/assets/portfolio/17-01-small.webp",
+          "alt": "A Mesa de Quem Faz — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Retrato entre as Brasas",
+          "image": "/assets/portfolio/17-06.jpg",
+          "thumbnail": "/assets/portfolio/17-06-small.webp",
+          "alt": "Retrato entre as Brasas — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Encontro de Ofícios",
+          "image": "/assets/portfolio/17-11.jpg",
+          "thumbnail": "/assets/portfolio/17-11-small.webp",
+          "alt": "Encontro de Ofícios — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Ritmo de Coqueteleira",
+          "image": "/assets/portfolio/17-13.jpg",
+          "thumbnail": "/assets/portfolio/17-13-small.webp",
+          "alt": "Ritmo de Coqueteleira — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Público e o Palco",
+          "image": "/assets/portfolio/17-21.jpg",
+          "thumbnail": "/assets/portfolio/17-21-small.webp",
+          "alt": "O Público e o Palco — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": true
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "O trabalho junto ao fogo",
+      "eyebrow": "04 FOTOGRAFIAS · EVENTOS",
+      "description": "Os gestos e bastidores da Brasaria Papucaia.",
+      "photos": [
+        {
+          "title": "Erguendo a Estrutura",
+          "image": "/assets/portfolio/20-03.jpg",
+          "thumbnail": "/assets/portfolio/20-03-small.webp",
+          "alt": "Erguendo a Estrutura — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Cuidado junto à Grelha",
+          "image": "/assets/portfolio/20-10.jpg",
+          "thumbnail": "/assets/portfolio/20-10-small.webp",
+          "alt": "Cuidado junto à Grelha — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Ofício e a Brasa",
+          "image": "/assets/portfolio/20-14.jpg",
+          "thumbnail": "/assets/portfolio/20-14-small.webp",
+          "alt": "O Ofício e a Brasa — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "A Cena do Fogo",
+          "image": "/assets/portfolio/20-20.jpg",
+          "thumbnail": "/assets/portfolio/20-20-small.webp",
+          "alt": "A Cena do Fogo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-2",
+      "title": "Heitor: afeto em festa",
+      "eyebrow": "04 FOTOGRAFIAS · EVENTOS",
+      "description": "Retratos de família e a celebração em torno do bolo.",
+      "photos": [
+        {
+          "title": "Um Colo no Meio da Festa",
+          "image": "/assets/portfolio/18-01.jpg",
+          "thumbnail": "/assets/portfolio/18-01-small.webp",
+          "alt": "Um Colo no Meio da Festa — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Juntos à Mesa do Bolo",
+          "image": "/assets/portfolio/18-08.jpg",
+          "thumbnail": "/assets/portfolio/18-08-small.webp",
+          "alt": "Juntos à Mesa do Bolo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Hora de Celebrar",
+          "image": "/assets/portfolio/18-20.jpg",
+          "thumbnail": "/assets/portfolio/18-20-small.webp",
+          "alt": "Hora de Celebrar — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Carinho entre os Dois",
+          "image": "/assets/portfolio/18-22.jpg",
+          "thumbnail": "/assets/portfolio/18-22-small.webp",
+          "alt": "Carinho entre os Dois — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-3",
+      "title": "Rebeca: quinze em movimento",
+      "eyebrow": "06 FOTOGRAFIAS · EVENTOS",
+      "description": "A dança, os encontros e os detalhes de uma celebração.",
+      "photos": [
+        {
+          "title": "Um Giro, um Sorriso",
+          "image": "/assets/portfolio/19-23.jpg",
+          "thumbnail": "/assets/portfolio/19-23-small.webp",
+          "alt": "Um Giro, um Sorriso — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Afeto no Compasso",
+          "image": "/assets/portfolio/19-02.jpg",
+          "thumbnail": "/assets/portfolio/19-02-small.webp",
+          "alt": "Afeto no Compasso — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Flores à Mesa",
+          "image": "/assets/portfolio/19-14.jpg",
+          "thumbnail": "/assets/portfolio/19-14-small.webp",
+          "alt": "Flores à Mesa — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorrisos entre Flores",
+          "image": "/assets/portfolio/19-08.jpg",
+          "thumbnail": "/assets/portfolio/19-08-small.webp",
+          "alt": "Sorrisos entre Flores — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Retrato em Azul",
+          "image": "/assets/portfolio/19-16.jpg",
+          "thumbnail": "/assets/portfolio/19-16-small.webp",
+          "alt": "Retrato em Azul — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Aplausos em Família",
+          "image": "/assets/portfolio/19-19.jpg",
+          "thumbnail": "/assets/portfolio/19-19-small.webp",
+          "alt": "Aplausos em Família — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-4",
+      "title": "Piter e Maria: brincar e celebrar",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Abraços, brincadeiras e encontros de aniversário.",
+      "photos": [
+        {
+          "title": "Abraço em Dupla",
+          "image": "/assets/portfolio/21-03.jpg",
+          "thumbnail": "/assets/portfolio/21-03-small.webp",
+          "alt": "Abraço em Dupla — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": true
+        },
+        {
+          "title": "Pausa na Brincadeira",
+          "image": "/assets/portfolio/21-04.jpg",
+          "thumbnail": "/assets/portfolio/21-04-small.webp",
+          "alt": "Pausa na Brincadeira — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Cor na Ponta do Pincel",
+          "image": "/assets/portfolio/21-13.jpg",
+          "thumbnail": "/assets/portfolio/21-13-small.webp",
+          "alt": "Cor na Ponta do Pincel — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": true
+        },
+        {
+          "title": "Dois no Centro da Festa",
+          "image": "/assets/portfolio/21-19.jpg",
+          "thumbnail": "/assets/portfolio/21-19-small.webp",
+          "alt": "Dois no Centro da Festa — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "A Festa em Movimento",
+          "image": "/assets/portfolio/21-23.jpg",
+          "thumbnail": "/assets/portfolio/21-23-small.webp",
+          "alt": "A Festa em Movimento — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-5",
+      "title": "Enzo: energia de festa",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Brincadeiras e encontros entre cores e movimento.",
+      "photos": [
+        {
+          "title": "Detalhes de uma Aventura",
+          "image": "/assets/portfolio/22-00.jpg",
+          "thumbnail": "/assets/portfolio/22-00-small.webp",
+          "alt": "Detalhes de uma Aventura — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Juntos para Celebrar",
+          "image": "/assets/portfolio/22-10.jpg",
+          "thumbnail": "/assets/portfolio/22-10-small.webp",
+          "alt": "Juntos para Celebrar — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Salto no Meio da Festa",
+          "image": "/assets/portfolio/22-13.jpg",
+          "thumbnail": "/assets/portfolio/22-13-small.webp",
+          "alt": "Salto no Meio da Festa — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Riso em Movimento",
+          "image": "/assets/portfolio/22-16.jpg",
+          "thumbnail": "/assets/portfolio/22-16-small.webp",
+          "alt": "Riso em Movimento — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Ritmo da Brincadeira",
+          "image": "/assets/portfolio/22-22.jpg",
+          "thumbnail": "/assets/portfolio/22-22-small.webp",
+          "alt": "O Ritmo da Brincadeira — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-6",
+      "title": "Will: encontros antes do sim",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Detalhes, família e brincadeiras no chá de panela.",
+      "photos": [
+        {
+          "title": "Lembranças que Florescem",
+          "image": "/assets/portfolio/23-00.jpg",
+          "thumbnail": "/assets/portfolio/23-00-small.webp",
+          "alt": "Lembranças que Florescem — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "A Mesa em Detalhes",
+          "image": "/assets/portfolio/23-03.jpg",
+          "thumbnail": "/assets/portfolio/23-03-small.webp",
+          "alt": "A Mesa em Detalhes — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Abraços Antes do Sim",
+          "image": "/assets/portfolio/23-11.jpg",
+          "thumbnail": "/assets/portfolio/23-11-small.webp",
+          "alt": "Abraços Antes do Sim — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Riso no Meio do Jogo",
+          "image": "/assets/portfolio/23-17.jpg",
+          "thumbnail": "/assets/portfolio/23-17-small.webp",
+          "alt": "Riso no Meio do Jogo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Todo Mundo no Ritmo",
+          "image": "/assets/portfolio/23-21.jpg",
+          "thumbnail": "/assets/portfolio/23-21-small.webp",
+          "alt": "Todo Mundo no Ritmo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-7",
+      "title": "Diego: um dia compartilhado",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Cerimônia, encontros e retratos de casamento.",
+      "photos": [
+        {
+          "title": "Flores e Doçura",
+          "image": "/assets/portfolio/24-04.jpg",
+          "thumbnail": "/assets/portfolio/24-04-small.webp",
+          "alt": "Flores e Doçura — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "O Caminho até o Encontro",
+          "image": "/assets/portfolio/24-10.jpg",
+          "thumbnail": "/assets/portfolio/24-10-small.webp",
+          "alt": "O Caminho até o Encontro — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": true
+        },
+        {
+          "title": "Palavras diante do Altar",
+          "image": "/assets/portfolio/24-12.jpg",
+          "thumbnail": "/assets/portfolio/24-12-small.webp",
+          "alt": "Palavras diante do Altar — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": true
+        },
+        {
+          "title": "Olhares à Mesa do Bolo",
+          "image": "/assets/portfolio/24-18.jpg",
+          "thumbnail": "/assets/portfolio/24-18-small.webp",
+          "alt": "Olhares à Mesa do Bolo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Beijo em Família",
+          "image": "/assets/portfolio/24-23.jpg",
+          "thumbnail": "/assets/portfolio/24-23-small.webp",
+          "alt": "Um Beijo em Família — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-8",
+      "title": "Uma festa à beira do lago",
+      "eyebrow": "05 FOTOGRAFIAS · EVENTOS",
+      "description": "Infância e encontros ao ar livre em uma festa com tema Moana.",
+      "photos": [
+        {
+          "title": "Festa entre Árvores",
+          "image": "/assets/portfolio/25-08.jpg",
+          "thumbnail": "/assets/portfolio/25-08-small.webp",
+          "alt": "Festa entre Árvores — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Pequena Protagonista",
+          "image": "/assets/portfolio/25-13.jpg",
+          "thumbnail": "/assets/portfolio/25-13-small.webp",
+          "alt": "Pequena Protagonista — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Colo à Beira do Lago",
+          "image": "/assets/portfolio/25-16.jpg",
+          "thumbnail": "/assets/portfolio/25-16-small.webp",
+          "alt": "Colo à Beira do Lago — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Três Sorrisos à Tarde",
+          "image": "/assets/portfolio/25-17.jpg",
+          "thumbnail": "/assets/portfolio/25-17-small.webp",
+          "alt": "Três Sorrisos à Tarde — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        },
+        {
+          "title": "Encontro junto ao Bolo",
+          "image": "/assets/portfolio/25-19.jpg",
+          "thumbnail": "/assets/portfolio/25-19-small.webp",
+          "alt": "Encontro junto ao Bolo — Eventos, fotografia de Kaio Mendes",
+          "subtitle": "EVENTOS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

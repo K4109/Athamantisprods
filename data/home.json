@@ -1,0 +1,204 @@
+{
+  "photos": [
+    {
+      "title": "Última Luz",
+      "image": "/assets/bench.jpeg",
+      "thumbnail": "/assets/bench.jpeg",
+      "alt": "Retrato de mulher em banco sob um pergolado ao entardecer",
+      "subtitle": "ENSAIO EXTERNO",
+      "category": "ensaios",
+      "tall": true,
+      "monochrome": false
+    },
+    {
+      "title": "Temperos sobre Carvão",
+      "image": "/assets/product.png",
+      "thumbnail": "/assets/product.png",
+      "alt": "Embalagens de temperos Na Brasa fotografadas sobre carvão",
+      "subtitle": "FOTOGRAFIA DE PRODUTO",
+      "category": "produtos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Voz sob a Luz",
+      "image": "/assets/music.png",
+      "thumbnail": "/assets/music.png",
+      "alt": "Cantor de chapéu se apresentando ao microfone",
+      "subtitle": "EVENTOS & MÚSICA",
+      "category": "eventos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Caminho Dourado",
+      "image": "/assets/walk.jpeg",
+      "thumbnail": "/assets/walk.jpeg",
+      "alt": "Ensaio externo em cenário natural",
+      "subtitle": "ENSAIO EXTERNO",
+      "category": "ensaios",
+      "tall": true,
+      "monochrome": false
+    },
+    {
+      "title": "Costelas ao Fogo de Chão",
+      "image": "/assets/food.png",
+      "thumbnail": "/assets/food.png",
+      "alt": "Costelas preparadas em uma churrasqueira ao ar livre",
+      "subtitle": "GASTRONOMIA",
+      "category": "produtos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Antes do Brinde",
+      "image": "/assets/event.png",
+      "thumbnail": "/assets/event.png",
+      "alt": "Preparo de bebidas durante evento",
+      "subtitle": "COBERTURA DE EVENTOS",
+      "category": "eventos",
+      "tall": true,
+      "monochrome": false
+    },
+    {
+      "title": "Entre Luz e Sombras",
+      "image": "/assets/portrait.jpeg",
+      "thumbnail": "/assets/portrait.jpeg",
+      "alt": "Retrato em close com luz do pôr do sol",
+      "subtitle": "RETRATO",
+      "category": "ensaios",
+      "tall": true,
+      "monochrome": false
+    },
+    {
+      "title": "Sorriso em Cena",
+      "image": "/assets/live.png",
+      "thumbnail": "/assets/live.png",
+      "alt": "Artista de camisa preta cantando ao microfone",
+      "subtitle": "MÚSICA AO VIVO",
+      "category": "eventos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "O Amor se Multiplica",
+      "image": "/assets/gestante0.jpg",
+      "thumbnail": "/assets/gestante0.jpg",
+      "alt": "Gestantes: fotografia por Kaio Mendes",
+      "subtitle": "GESTANTES",
+      "category": "gestantes",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Afeto em Flor",
+      "image": "/assets/formatura0.jpg",
+      "thumbnail": "/assets/formatura0.jpg",
+      "alt": "Formaturas: fotografia por Kaio Mendes",
+      "subtitle": "FORMATURAS",
+      "category": "formaturas",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Entre Folhas",
+      "image": "/assets/ensaio0.jpg",
+      "thumbnail": "/assets/ensaio0.jpg",
+      "alt": "Ensaios: fotografia por Kaio Mendes",
+      "subtitle": "ENSAIOS",
+      "category": "ensaios",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Promessa em Branco",
+      "image": "/assets/ensaio1.jpg",
+      "thumbnail": "/assets/ensaio1.jpg",
+      "alt": "Ensaios: fotografia por Kaio Mendes",
+      "subtitle": "ENSAIOS",
+      "category": "ensaios",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Onde a Vida Floresce",
+      "image": "/assets/gestante1.jpg",
+      "thumbnail": "/assets/gestante1.jpg",
+      "alt": "Gestantes: fotografia por Kaio Mendes",
+      "subtitle": "GESTANTES",
+      "category": "gestantes",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "O Futuro nas Mãos",
+      "image": "/assets/formatura1.jpg",
+      "thumbnail": "/assets/formatura1.jpg",
+      "alt": "Formaturas: fotografia por Kaio Mendes",
+      "subtitle": "FORMATURAS",
+      "category": "formaturas",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "A Cidade ao Fundo",
+      "image": "/assets/portfolio/11-00.jpg",
+      "thumbnail": "/assets/portfolio/11-00-small.webp",
+      "alt": "A Cidade ao Fundo — Ensaios, fotografia de Kaio Mendes",
+      "subtitle": "ENSAIOS",
+      "category": "ensaios",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Dourado por Fora",
+      "image": "/assets/portfolio/01-07.jpg",
+      "thumbnail": "/assets/portfolio/01-07-small.webp",
+      "alt": "Dourado por Fora — Gastronomia & Produtos, fotografia de Kaio Mendes",
+      "subtitle": "GASTRONOMIA & PRODUTOS",
+      "category": "produtos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Um Beijo para Quem Chega",
+      "image": "/assets/portfolio/05-11.jpg",
+      "thumbnail": "/assets/portfolio/05-11-small.webp",
+      "alt": "Um Beijo para Quem Chega — Gestantes, fotografia de Kaio Mendes",
+      "subtitle": "GESTANTES",
+      "category": "gestantes",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Um Horizonte em Comum",
+      "image": "/assets/portfolio/09-06.jpg",
+      "thumbnail": "/assets/portfolio/09-06-small.webp",
+      "alt": "Um Horizonte em Comum — Formaturas, fotografia de Kaio Mendes",
+      "subtitle": "FORMATURAS",
+      "category": "formaturas",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Um Giro, um Sorriso",
+      "image": "/assets/portfolio/19-23.jpg",
+      "thumbnail": "/assets/portfolio/19-23-small.webp",
+      "alt": "Um Giro, um Sorriso — Eventos, fotografia de Kaio Mendes",
+      "subtitle": "EVENTOS",
+      "category": "eventos",
+      "tall": false,
+      "monochrome": false
+    },
+    {
+      "title": "Instrumentos do Ofício",
+      "image": "/assets/portfolio/03-05.jpg",
+      "thumbnail": "/assets/portfolio/03-05-small.webp",
+      "alt": "Instrumentos do Ofício — Empresas, fotografia de Kaio Mendes",
+      "subtitle": "EMPRESAS",
+      "category": "empresas",
+      "tall": false,
+      "monochrome": false
+    }
+  ]
+}

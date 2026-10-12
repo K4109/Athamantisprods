@@ -1,0 +1,188 @@
+{
+  "series": [
+    {
+      "id": "assinatura",
+      "title": "Seleção de abertura",
+      "eyebrow": "O OLHAR ATHAMANTIS",
+      "description": "",
+      "photos": [
+        {
+          "title": "Afeto em Flor",
+          "image": "/assets/formatura0.jpg",
+          "thumbnail": "/assets/formatura0.jpg",
+          "alt": "Formaturas: fotografia por Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "O Futuro nas Mãos",
+          "image": "/assets/formatura1.jpg",
+          "thumbnail": "/assets/formatura1.jpg",
+          "alt": "Formaturas: fotografia por Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Uma Conquista, Muitas Presenças",
+          "image": "/assets/formatura2.jpg",
+          "thumbnail": "/assets/formatura2.jpg",
+          "alt": "Formaturas: fotografia por Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-0",
+      "title": "Conquistas diante do mar",
+      "eyebrow": "06 FOTOGRAFIAS · FORMATURAS",
+      "description": "Becas, diplomas e retratos da turma 3002.",
+      "photos": [
+        {
+          "title": "O Diploma em Primeiro Plano",
+          "image": "/assets/portfolio/02-15.jpg",
+          "thumbnail": "/assets/portfolio/02-15-small.webp",
+          "alt": "O Diploma em Primeiro Plano — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Conquista Erguida",
+          "image": "/assets/portfolio/02-18.jpg",
+          "thumbnail": "/assets/portfolio/02-18-small.webp",
+          "alt": "Conquista Erguida — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Entre a Beca e o Mar",
+          "image": "/assets/portfolio/02-19.jpg",
+          "thumbnail": "/assets/portfolio/02-19-small.webp",
+          "alt": "Entre a Beca e o Mar — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Postura de Futuro",
+          "image": "/assets/portfolio/02-11.jpg",
+          "thumbnail": "/assets/portfolio/02-11-small.webp",
+          "alt": "Postura de Futuro — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Novo Horizonte",
+          "image": "/assets/portfolio/02-07.jpg",
+          "thumbnail": "/assets/portfolio/02-07-small.webp",
+          "alt": "Um Novo Horizonte — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorriso de Conquista",
+          "image": "/assets/portfolio/02-09.jpg",
+          "thumbnail": "/assets/portfolio/02-09-small.webp",
+          "alt": "Sorriso de Conquista — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "serie-1",
+      "title": "Um horizonte em comum",
+      "eyebrow": "05 FOTOGRAFIAS · FORMATURAS",
+      "description": "A turma 3001, entre retratos individuais e encontros junto ao mar.",
+      "photos": [
+        {
+          "title": "Azul sobre Azul",
+          "image": "/assets/portfolio/09-01.jpg",
+          "thumbnail": "/assets/portfolio/09-01-small.webp",
+          "alt": "Azul sobre Azul — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Horizonte em Comum",
+          "image": "/assets/portfolio/09-06.jpg",
+          "thumbnail": "/assets/portfolio/09-06-small.webp",
+          "alt": "Um Horizonte em Comum — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Conquistas Compartilhadas",
+          "image": "/assets/portfolio/09-09.jpg",
+          "thumbnail": "/assets/portfolio/09-09-small.webp",
+          "alt": "Conquistas Compartilhadas — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "Um Abraço para Lembrar",
+          "image": "/assets/portfolio/09-13.jpg",
+          "thumbnail": "/assets/portfolio/09-13-small.webp",
+          "alt": "Um Abraço para Lembrar — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        },
+        {
+          "title": "A Conquista Tem Companhia",
+          "image": "/assets/portfolio/09-19.jpg",
+          "thumbnail": "/assets/portfolio/09-19-small.webp",
+          "alt": "A Conquista Tem Companhia — Formaturas, fotografia de Kaio Mendes",
+          "subtitle": "FORMATURAS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "id": "acervo",
+      "title": "Encontros depois da conquista",
+      "eyebrow": "ACERVO ATHAMANTIS",
+      "description": "Retratos e gestos de afeto em uma celebração de formatura.",
+      "photos": [
+        {
+          "title": "Um Gesto entre Gerações",
+          "image": "/assets/portfolio/archive-formandos-12.jpg",
+          "thumbnail": "/assets/portfolio/archive-formandos-12-small.webp",
+          "alt": "Um Gesto entre Gerações — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Sorriso em Azul",
+          "image": "/assets/portfolio/archive-formandos-14.jpg",
+          "thumbnail": "/assets/portfolio/archive-formandos-14-small.webp",
+          "alt": "Sorriso em Azul — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Verde no Fim da Tarde",
+          "image": "/assets/portfolio/archive-formandos-15.jpg",
+          "thumbnail": "/assets/portfolio/archive-formandos-15-small.webp",
+          "alt": "Verde no Fim da Tarde — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "O Beijo da Conquista",
+          "image": "/assets/portfolio/archive-formandos-17.jpg",
+          "thumbnail": "/assets/portfolio/archive-formandos-17-small.webp",
+          "alt": "O Beijo da Conquista — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        },
+        {
+          "title": "Todos no Mesmo Quadro",
+          "image": "/assets/portfolio/archive-formandos-20.jpg",
+          "thumbnail": "/assets/portfolio/archive-formandos-20-small.webp",
+          "alt": "Todos no Mesmo Quadro — fotografia de Kaio Mendes",
+          "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        }
+      ]
+    }
+  ]
+}

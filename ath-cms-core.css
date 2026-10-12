@@ -1,0 +1,23 @@
+/* ATHAMANTIS / CMS CORE — extensoes de estilo. Nao altera grade premium. */
+#kaio .ath-team-header{border-bottom:1px solid var(--line,#303030);padding-bottom:34px;margin-bottom:clamp(30px,6vw,90px)}
+#kaio .ath-team-header h2{font-size:clamp(32px,5vw,76px);line-height:1.1;letter-spacing:-.04em;max-width:850px;margin:18px 0 0}
+#kaio .ath-team-member{padding:0 0 clamp(42px,7vw,100px);margin:0 0 clamp(42px,7vw,100px);border-bottom:1px solid var(--line,#303030)}
+#kaio .ath-team-member:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+#kaio .ath-team-member:nth-child(odd) figure{order:2}
+#kaio .ath-team-member:nth-child(odd) .ath-team-content{order:1}
+#kaio .ath-team-member:first-of-type figure{order:0}
+#kaio .ath-team-member:first-of-type .ath-team-content{order:0}
+#kaio .ath-team-member h2{line-height:1.04}
+#kaio .ath-team-role{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#aaa}
+#kaio .ath-team-link{display:inline-flex;align-items:center;margin:6px 18px 0 0}
+.ath-reviews{border-top:1px solid var(--line,#303030);border-bottom:1px solid var(--line,#303030);padding-top:clamp(55px,7vw,110px);padding-bottom:clamp(55px,7vw,110px)}
+.ath-reviews>h2{font-size:clamp(34px,5vw,76px);margin:16px 0 38px;line-height:1.1}
+.ath-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.ath-review{min-width:0;border:1px solid var(--line,#303030);background:rgba(255,255,255,.025);padding:clamp(20px,3vw,38px);display:flex;flex-direction:column;gap:18px}
+.ath-review-mark{font-family:Georgia,serif;font-size:58px;line-height:.75;color:#a9a9a9}
+.ath-review blockquote{margin:0;flex:1;font-size:clamp(16px,2vw,21px);line-height:1.55;color:#dededb}
+.ath-review-person{display:flex;gap:13px;align-items:center;border-top:1px solid var(--line,#303030);padding-top:18px}
+.ath-review-person img{width:45px;height:45px;object-fit:cover;border-radius:50%}
+.ath-review-person strong{display:block;font-size:12px}
+.ath-review-person small{display:block;color:#999;font-size:11px}
+@media(max-width:800px){#kaio .ath-team-member:nth-child(n) figure{order:0}#kaio .ath-team-member:nth-child(n) .ath-team-content{order:0}.ath-review-grid{grid-template-columns:1fr}}

@@ -4,7 +4,6 @@
       "id": "assinatura",
       "title": "Seleção de abertura",
       "eyebrow": "O OLHAR ATHAMANTIS",
-      "description": "",
       "photos": [
         {
           "title": "Afeto em Flor",
@@ -180,6 +179,49 @@
           "thumbnail": "/assets/portfolio/archive-formandos-20-small.webp",
           "alt": "Todos no Mesmo Quadro — fotografia de Kaio Mendes",
           "subtitle": "ACERVO ATHAMANTIS",
+          "monochrome": false
+        }
+      ]
+    },
+    {
+      "title": "Formatura CEVI — O Brilho da Conquista",
+      "eyebrow": "CELEBRAÇÃO • FORMATURA • CEVI",
+      "description": "Toda conquista carrega uma história. Entre sorrisos, encontros e momentos de celebração, a formatura do CEVI marca o encerramento de uma jornada e o início de novos caminhos. Uma coleção de registros que eterniza a emoção e o orgulho dessa ocasião especial.",
+      "photos": [
+        {
+          "title": "A Conquista em Minhas Mãos",
+          "image": "/assets/dsc1283.jpg",
+          "thumbnail": "/assets/dsc1283-1.jpg",
+          "monochrome": false
+        },
+        {
+          "title": "Laços de Uma Jornada",
+          "image": "/assets/dsc1171.jpg",
+          "thumbnail": "/assets/dsc1171-1.jpg",
+          "monochrome": false
+        },
+        {
+          "title": "Um Brinde ao Futuro",
+          "image": "/assets/dsc1184.jpg",
+          "thumbnail": "/assets/dsc1184-1.jpg",
+          "monochrome": false
+        },
+        {
+          "title": "Conquistas Compartilhadas",
+          "image": "/assets/dsc1283-2.jpg",
+          "thumbnail": "/assets/dsc1283-3.jpg",
+          "monochrome": false
+        },
+        {
+          "title": "O Sonho Agora é Real",
+          "image": "/assets/dsc1284.jpg",
+          "thumbnail": "/assets/dsc1284-1.jpg",
+          "monochrome": false
+        },
+        {
+          "title": "Elegância em Cena",
+          "image": "/assets/dsc1290.jpg",
+          "thumbnail": "/assets/dsc1290-1.jpg",
           "monochrome": false
         }
       ]

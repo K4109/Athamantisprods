@@ -397,3 +397,236 @@ content:
         label: Mostrar em preto e branco
         type: boolean
         default: false
+        # COPIE SOMENTE O BLOCO ABAIXO para o final da lista content do .pages.yml
+# Nao copie outro media: ou content:; mantenha o conteudo ja existente.
+- name: ath-home-texts
+  label: Institucional · textos e seções
+  type: file
+  path: data/ath-home-texts.json
+  format: json
+  fields:
+  - name: hero_kicker_left
+    label: Topo · assinatura
+    type: string
+  - name: hero_kicker_right
+    label: Topo · localização
+    type: string
+  - name: hero_line1
+    label: Hero · título, primeira linha
+    type: string
+  - name: hero_line2
+    label: Hero · título, segunda linha
+    type: string
+  - name: hero_outline
+    label: Hero · destaque contornado
+    type: string
+  - name: hero_description
+    label: Hero · descrição
+    type: text
+  - name: work_intro
+    label: Portfólio · introdução
+    type: text
+  - name: work_line1
+    label: Portfólio · título 1
+    type: string
+  - name: work_line2
+    label: Portfólio · título 2
+    type: string
+  - name: about_intro
+    label: A marca · introdução
+    type: text
+  - name: about_paragraph1
+    label: A marca · texto 1
+    type: text
+  - name: about_paragraph2
+    label: A marca · texto 2
+    type: text
+  - name: services_description
+    label: Serviços · introdução
+    type: text
+  - name: contact_description
+    label: Contato · introdução
+    type: text
+  - name: show_team
+    label: Mostrar equipe
+    type: boolean
+    default: true
+  - name: show_services
+    label: Mostrar serviços
+    type: boolean
+    default: true
+  - name: show_videos
+    label: Mostrar vídeos
+    type: boolean
+    default: true
+  - name: show_reviews
+    label: Mostrar depoimentos
+    type: boolean
+    default: true
+- name: ath-team
+  label: Equipe · integrantes
+  type: file
+  path: data/ath-team.json
+  format: json
+  fields:
+  - name: heading
+    label: Título do grupo (aparece com mais de uma pessoa)
+    type: string
+  - name: members
+    label: Integrantes (adicionar / arrastar para ordenar)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome
+      type: string
+      required: true
+    - name: role
+      label: Cargo
+      type: string
+    - name: visible
+      label: Exibir no site
+      type: boolean
+      default: true
+    - name: photo
+      label: Foto do integrante
+      type: image
+      required: true
+    - name: alt
+      label: Texto alternativo para acessibilidade
+      type: string
+    - name: photo_caption
+      label: Legenda debaixo da foto
+      type: string
+    - name: eyebrow
+      label: Chamada pequena acima do título
+      type: string
+    - name: headline1
+      label: Título grande · primeira linha
+      type: string
+    - name: headline2
+      label: Título grande · destaque cinza
+      type: string
+    - name: bio
+      label: Biografia (separe parágrafos com linha em branco)
+      type: text
+    - name: links
+      label: Links do integrante
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Texto do link
+        type: string
+      - name: url
+        label: Endereço completo https://
+        type: string
+- name: ath-services
+  label: Serviços · ofertas e preços
+  type: file
+  path: data/ath-services.json
+  format: json
+  fields:
+  - name: services
+    label: Serviços (reordenáveis)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome do serviço
+      type: string
+      required: true
+    - name: start
+      label: Preço a partir de (texto)
+      type: string
+    - name: note
+      label: Descrição do serviço
+      type: text
+    - name: visible
+      label: Mostrar no site
+      type: boolean
+      default: true
+    - name: packages
+      label: Pacotes dentro deste serviço
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Descrição do pacote
+        type: string
+        required: true
+      - name: price
+        label: Preço a exibir
+        type: string
+- name: ath-testimonials
+  label: Depoimentos · clientes
+  type: file
+  path: data/ath-testimonials.json
+  format: json
+  fields:
+  - name: subtitle
+    label: Legenda superior da seção
+    type: string
+  - name: title
+    label: Título da seção
+    type: string
+  - name: items
+    label: Depoimentos (vazio = não aparece)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome do cliente (com autorização)
+      type: string
+      required: true
+    - name: service
+      label: Projeto / serviço realizado
+      type: string
+    - name: quote
+      label: Depoimento autorizado
+      type: text
+      required: true
+    - name: photo
+      label: Foto do cliente (opcional)
+      type: image
+    - name: visible
+      label: Exibir no site
+      type: boolean
+      default: true
+- name: ath-settings
+  label: Configurações · redes e contato
+  type: file
+  path: data/ath-settings.json
+  format: json
+  fields:
+  - name: instagram
+    label: Instagram Athamantis · URL completa
+    type: string
+  - name: personal_instagram
+    label: Instagram pessoal · URL completa
+    type: string
+  - name: facebook
+    label: Facebook · URL completa
+    type: string
+  - name: email
+    label: Email comercial
+    type: string
+  - name: whatsapp
+    label: WhatsApp internacional só números · links
+    type: string
+

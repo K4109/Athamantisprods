@@ -30,7 +30,7 @@
       const template = gallery.querySelector('button.project');
       if (!template) return;
       const fragment = document.createDocumentFragment();
-      data.photos.forEach(photo => {
+      data.photos.slice(0, 6).forEach(photo => {
         if (!photo || !assetsPath(photo.image)) return;
         const b = template.cloneNode(true);
         const title = String(photo.title || 'Fotografia');

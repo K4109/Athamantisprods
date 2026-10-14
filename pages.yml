@@ -1,0 +1,702 @@
+media:
+  input: assets
+  output: /assets
+  rename: safe
+  categories:
+  - image
+content:
+- name: inicio
+  label: Página inicial · fotografias
+  type: file
+  path: data/home.json
+  format: json
+  fields:
+  - name: photos
+    label: Fotos da página inicial
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Título da foto
+      type: string
+      required: true
+    - name: image
+      label: Fotografia
+      type: image
+      required: true
+    - name: thumbnail
+      label: Miniatura (opcional)
+      type: image
+    - name: alt
+      label: Descrição acessível
+      type: string
+    - name: subtitle
+      label: Texto abaixo do título
+      type: string
+    - name: category
+      label: Categoria / filtro
+      type: select
+      options:
+        values:
+        - name: ensaios
+          label: Ensaios
+        - name: gestantes
+          label: Gestantes
+        - name: formaturas
+          label: Formaturas
+        - name: eventos
+          label: Eventos
+        - name: produtos
+          label: Gastronomia & Produtos
+        - name: empresas
+          label: Empresas
+    - name: tall
+      label: Mostrar como cartão quadrado
+      type: boolean
+      default: false
+    - name: monochrome
+      label: Mostrar em preto e branco
+      type: boolean
+      default: false
+- name: ensaios
+  label: Galeria · Ensaios
+  type: file
+  path: data/ensaios.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: gestantes
+  label: Galeria · Gestantes
+  type: file
+  path: data/gestantes.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: formaturas
+  label: Galeria · Formaturas
+  type: file
+  path: data/formaturas.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: eventos
+  label: Galeria · Eventos
+  type: file
+  path: data/eventos.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: produtos
+  label: Galeria · Gastronomia & Produtos
+  type: file
+  path: data/produtos.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+- name: empresas
+  label: Galeria · Empresas
+  type: file
+  path: data/empresas.json
+  format: json
+  fields:
+  - name: series
+    label: Séries / ensaios
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID da seção (não mudar nas existentes)
+      type: string
+    - name: title
+      label: Nome do ensaio ou série
+      type: string
+      required: true
+    - name: eyebrow
+      label: Legenda acima do título
+      type: string
+    - name: description
+      label: Descrição da série
+      type: text
+    - name: photos
+      label: Fotos desta série
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Título da foto
+        type: string
+        required: true
+      - name: image
+        label: Foto principal (obrigatória)
+        type: image
+        required: true
+      - name: thumbnail
+        label: Miniatura (opcional; deixe vazia para usar foto principal)
+        type: image
+      - name: alt
+        label: Descrição acessível (opcional)
+        type: string
+      - name: subtitle
+        label: Texto abaixo do título
+        type: string
+      - name: monochrome
+        label: Mostrar em preto e branco
+        type: boolean
+        default: false
+        # COPIE SOMENTE O BLOCO ABAIXO para o final da lista content do .pages.yml
+# Nao copie outro media: ou content:; mantenha o conteudo ja existente.
+- name: ath-home-texts
+  label: Institucional · textos e seções
+  type: file
+  path: data/ath-home-texts.json
+  format: json
+  fields:
+  - name: hero_kicker_left
+    label: Topo · assinatura
+    type: string
+  - name: hero_kicker_right
+    label: Topo · localização
+    type: string
+  - name: hero_line1
+    label: Hero · título, primeira linha
+    type: string
+  - name: hero_line2
+    label: Hero · título, segunda linha
+    type: string
+  - name: hero_outline
+    label: Hero · destaque contornado
+    type: string
+  - name: hero_description
+    label: Hero · descrição
+    type: text
+  - name: work_intro
+    label: Portfólio · introdução
+    type: text
+  - name: work_line1
+    label: Portfólio · título 1
+    type: string
+  - name: work_line2
+    label: Portfólio · título 2
+    type: string
+  - name: about_intro
+    label: A marca · introdução
+    type: text
+  - name: about_paragraph1
+    label: A marca · texto 1
+    type: text
+  - name: about_paragraph2
+    label: A marca · texto 2
+    type: text
+  - name: services_description
+    label: Serviços · introdução
+    type: text
+  - name: contact_description
+    label: Contato · introdução
+    type: text
+  - name: show_team
+    label: Mostrar equipe
+    type: boolean
+    default: true
+  - name: show_services
+    label: Mostrar serviços
+    type: boolean
+    default: true
+  - name: show_videos
+    label: Mostrar vídeos
+    type: boolean
+    default: true
+  - name: show_reviews
+    label: Mostrar depoimentos
+    type: boolean
+    default: true
+- name: ath-team
+  label: Equipe · integrantes
+  type: file
+  path: data/ath-team.json
+  format: json
+  fields:
+  - name: heading
+    label: Título do grupo (aparece com mais de uma pessoa)
+    type: string
+  - name: members
+    label: Integrantes (adicionar / arrastar para ordenar)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome
+      type: string
+      required: true
+    - name: role
+      label: Cargo
+      type: string
+    - name: visible
+      label: Exibir no site
+      type: boolean
+      default: true
+    - name: photo
+      label: Foto do integrante
+      type: image
+      required: true
+    - name: alt
+      label: Texto alternativo para acessibilidade
+      type: string
+    - name: photo_caption
+      label: Legenda debaixo da foto
+      type: string
+    - name: eyebrow
+      label: Chamada pequena acima do título
+      type: string
+    - name: headline1
+      label: Título grande · primeira linha
+      type: string
+    - name: headline2
+      label: Título grande · destaque cinza
+      type: string
+    - name: bio
+      label: Biografia (separe parágrafos com linha em branco)
+      type: text
+    - name: links
+      label: Links do integrante
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Texto do link
+        type: string
+      - name: url
+        label: Endereço completo https://
+        type: string
+- name: ath-services
+  label: Serviços · ofertas e preços
+  type: file
+  path: data/ath-services.json
+  format: json
+  fields:
+  - name: services
+    label: Serviços (reordenáveis)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome do serviço
+      type: string
+      required: true
+    - name: category
+      label: Área no Monte seu Projeto
+      type: select
+      options:
+        values:
+        - name: Fotografia
+          label: Fotografia
+        - name: Audiovisual
+          label: Audiovisual
+        - name: Design
+          label: Design
+        - name: Websites
+          label: Websites
+    - name: start
+      label: Preço a partir de (texto)
+      type: string
+    - name: note
+      label: Descrição do serviço
+      type: text
+    - name: details
+      label: Explicação para o cliente (Ver detalhes)
+      type: text
+    - name: visible
+      label: Mostrar no site
+      type: boolean
+      default: true
+    - name: packages
+      label: Pacotes dentro deste serviço
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Descrição do pacote
+        type: string
+        required: true
+      - name: price
+        label: Preço a exibir
+        type: string
+- name: ath-testimonials
+  label: Depoimentos · clientes
+  type: file
+  path: data/ath-testimonials.json
+  format: json
+  fields:
+  - name: subtitle
+    label: Legenda superior da seção
+    type: string
+  - name: title
+    label: Título da seção
+    type: string
+  - name: items
+    label: Depoimentos (vazio = não aparece)
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: name
+      label: Nome do cliente (com autorização)
+      type: string
+      required: true
+    - name: service
+      label: Projeto / serviço realizado
+      type: string
+    - name: quote
+      label: Depoimento autorizado
+      type: text
+      required: true
+    - name: photo
+      label: Foto do cliente (opcional)
+      type: image
+    - name: visible
+      label: Exibir no site
+      type: boolean
+      default: true
+- name: ath-settings
+  label: Configurações · redes e contato
+  type: file
+  path: data/ath-settings.json
+  format: json
+  fields:
+  - name: instagram
+    label: Instagram Athamantis · URL completa
+    type: string
+  - name: personal_instagram
+    label: Instagram pessoal · URL completa
+    type: string
+  - name: facebook
+    label: Facebook · URL completa
+    type: string
+  - name: email
+    label: Email comercial
+    type: string
+  - name: whatsapp
+    label: WhatsApp internacional só números · links
+    type: string
+
+
+# ATHAMANTIS / Portfólio criativo: exemplos editáveis de Design e Websites
+- name: ath_projetos_criativos
+  label: Portfólio · Design & Websites
+  type: file
+  path: data/ath-projects.json
+  format: json
+  fields:
+  - name: projects
+    label: Projetos de Design e Websites
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID único do projeto
+      type: string
+      required: true
+    - name: title
+      label: Nome do projeto
+      type: string
+      required: true
+    - name: category
+      label: Área
+      type: select
+      options:
+        values:
+        - name: design
+          label: Design
+        - name: websites
+          label: Websites
+    - name: type
+      label: "Tipo / marcador (ex.: PROJETO REAL, ESTUDO CONCEITUAL)"
+      type: string
+    - name: description
+      label: Descrição curta
+      type: text
+    - name: image
+      label: Imagem de capa
+      type: image
+      required: true
+    - name: link
+      label: Link para visitar projeto (opcional)
+      type: string
+    - name: featured
+      label: Mostrar na home
+      type: boolean
+      default: true
+    - name: visible
+      label: Publicado
+      type: boolean
+      default: true

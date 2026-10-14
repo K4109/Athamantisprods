@@ -1,0 +1,23 @@
+ATHAMANTIS — PRÉVIA DA NOVA HOME (NÃO PUBLICADA)
+
+COMO TESTAR
+1. Extraia o ZIP para uma pasta do computador.
+2. Abra index.html no Edge ou Chrome.
+3. Role até a seção UM ESTÚDIO. MUITAS FORMAS DE CRIAR.
+4. Clique em Fotografia, Audiovisual, Design e Websites.
+5. Use o link MONTE SEU PROJETO para experimentar o formulário de orçamento.
+
+ESTA É UMA PRÉVIA
+- Mantém a identidade, a logo, a abertura e o tema CSS do site enviado.
+- Fotografia mostra 6 destaques na home; galerias fotográficas completas foram preservadas no ZIP completo.
+- Audiovisual utiliza as 3 capas e IDs Vimeo do site enviado. Os vídeos precisam de internet para tocar.
+- Design e Websites contêm exemplos visuais CONCEITUAIS — não são cases comerciais reais.
+- Os preços fotográficos são derivados de data/ath-services.json (arquivo de origem); novos serviços são SOB CONSULTA.
+- Os novos campos de projetos e serviços estão configurados em .pages.yml para o Pages CMS.
+- Ao abrir index.html com dois cliques, há fallback visual local. Com Cloudflare, os dados vêm do JSON/CMS.
+- O botão do WhatsApp abre conversa pré-preenchida. NENHUM e-mail é enviado automaticamente nesta prévia.
+- Não substitua o repositório GitHub em produção até aprovar a aparência e configurar o envio real de e-mails.
+
+IMPORTANTE
+O ZIP LEVE testa a home e o simulador; não inclui as galerias fotográficas completas.
+O ZIP COMPLETO contém o site todo e os arquivos pré-existentes.

@@ -18,7 +18,9 @@
           "label": "25 fotos",
           "price": "R$ 250"
         }
-      ]
+      ],
+      "category": "Fotografia",
+      "details": "Uma sessão ao ar livre, com direção e tratamento das imagens."
     },
     {
       "name": "Ensaio em estúdio",
@@ -38,7 +40,9 @@
           "label": "25 fotos",
           "price": "R$ 250"
         }
-      ]
+      ],
+      "category": "Fotografia",
+      "details": "Aluguel do estúdio cobrado à parte, definido antes da contratação."
     },
     {
       "name": "Eventos sociais",
@@ -58,7 +62,9 @@
           "label": "Até 6 horas",
           "price": "R$ 650"
         }
-      ]
+      ],
+      "category": "Fotografia",
+      "details": "Cobertura e quantidade de imagens entregues alinhadas no orçamento."
     },
     {
       "name": "Produtos",
@@ -78,7 +84,9 @@
           "label": "Até 15 produtos · 30 fotos",
           "price": "R$ 450"
         }
-      ]
+      ],
+      "category": "Fotografia",
+      "details": "Para gastronomia, cardápios, delivery e produtos. Produções especiais sob consulta."
     },
     {
       "name": "Fotos para empresas",
@@ -97,6 +105,106 @@
         {
           "label": "Até 3h · 45 fotos",
           "price": "R$ 650"
+        }
+      ],
+      "category": "Fotografia",
+      "details": "Imagens do espaço, da equipe e do trabalho. Escopo combinado para cada negócio."
+    },
+    {
+      "category": "Audiovisual",
+      "name": "Vídeo curto",
+      "start": "Sob consulta",
+      "note": "Vídeos verticais para divulgação, redes sociais e campanhas.",
+      "details": "Vídeos verticais para divulgação, redes sociais e campanhas.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Vídeo editado",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Audiovisual",
+      "name": "Produção audiovisual",
+      "start": "Sob consulta",
+      "note": "Captação e edição planejadas conforme roteiro, duração e necessidades do projeto.",
+      "details": "Captação e edição planejadas conforme roteiro, duração e necessidades do projeto.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Projeto audiovisual",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Design",
+      "name": "Identidade visual",
+      "start": "Sob consulta",
+      "note": "Conjunto que dá personalidade à marca: logotipo, paleta de cores, tipografia e aplicações.",
+      "details": "Conjunto que dá personalidade à marca: logotipo, paleta de cores, tipografia e aplicações.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Identidade visual",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Design",
+      "name": "Artes gráficas",
+      "start": "Sob consulta",
+      "note": "Materiais como posts, cardápios, banners e apresentações.",
+      "details": "Materiais como posts, cardápios, banners e apresentações.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Peças gráficas",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Websites",
+      "name": "Landing page",
+      "start": "Sob consulta",
+      "note": "Página única para apresentar um serviço, uma marca ou uma campanha.",
+      "details": "Página única para apresentar um serviço, uma marca ou uma campanha.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Website Essential",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Websites",
+      "name": "Site institucional",
+      "start": "Sob consulta",
+      "note": "Site com seções e páginas para apresentar uma empresa e seus serviços.",
+      "details": "Site com seções e páginas para apresentar uma empresa e seus serviços.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Website Studio",
+          "price": "Sob consulta"
+        }
+      ]
+    },
+    {
+      "category": "Websites",
+      "name": "Portfólio premium",
+      "start": "Sob consulta",
+      "note": "Site personalizado para apresentar projetos, com opções avançadas sob análise.",
+      "details": "Site personalizado para apresentar projetos, com opções avançadas sob análise.",
+      "visible": true,
+      "packages": [
+        {
+          "label": "Website Signature",
+          "price": "Sob consulta"
         }
       ]
     }

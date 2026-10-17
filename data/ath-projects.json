@@ -6,8 +6,7 @@
       "category": "design",
       "type": "ESTUDO CONCEITUAL",
       "description": "Sistema visual, marca e aplicações editoriais. Projeto ilustrativo de demonstração.",
-      "image": "assets/ath-design-conceito-01.svg",
-      "link": "",
+      "image": "/assets/portfolio-premium-de-telas-para-lives.png",
       "featured": true,
       "visible": true
     },
@@ -17,8 +16,7 @@
       "category": "design",
       "type": "ESTUDO CONCEITUAL",
       "description": "Exploração de tipografia, composição e elementos gráficos. Projeto ilustrativo.",
-      "image": "assets/ath-design-conceito-02.svg",
-      "link": "",
+      "image": "/assets/ath-design-conceito-02.svg",
       "featured": true,
       "visible": true
     },
@@ -28,8 +26,7 @@
       "category": "websites",
       "type": "ESTUDO CONCEITUAL",
       "description": "Layout de página de apresentação com foco em leitura e conversão. Projeto ilustrativo.",
-      "image": "assets/ath-web-conceito-01.svg",
-      "link": "",
+      "image": "/assets/ath-web-conceito-01.svg",
       "featured": true,
       "visible": true
     },
@@ -39,8 +36,7 @@
       "category": "websites",
       "type": "ESTUDO CONCEITUAL",
       "description": "Experiência editorial para mostrar trabalhos em desktop e celular. Projeto ilustrativo.",
-      "image": "assets/ath-web-conceito-02.svg",
-      "link": "",
+      "image": "/assets/ath-web-conceito-02.svg",
       "featured": true,
       "visible": true
     }

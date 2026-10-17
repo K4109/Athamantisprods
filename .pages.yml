@@ -545,11 +545,27 @@ content:
       label: Nome do serviço
       type: string
       required: true
+    - name: category
+      label: Área no Monte seu Projeto
+      type: select
+      options:
+        values:
+        - name: Fotografia
+          label: Fotografia
+        - name: Audiovisual
+          label: Audiovisual
+        - name: Design
+          label: Design
+        - name: Websites
+          label: Websites
     - name: start
       label: Preço a partir de (texto)
       type: string
     - name: note
       label: Descrição do serviço
+      type: text
+    - name: details
+      label: Explicação para o cliente (Ver detalhes)
       type: text
     - name: visible
       label: Mostrar no site
@@ -630,3 +646,57 @@ content:
     label: WhatsApp internacional só números · links
     type: string
 
+
+# ATHAMANTIS / Portfólio criativo: exemplos editáveis de Design e Websites
+- name: ath_projetos_criativos
+  label: Portfólio · Design & Websites
+  type: file
+  path: data/ath-projects.json
+  format: json
+  fields:
+  - name: projects
+    label: Projetos de Design e Websites
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: id
+      label: ID único do projeto
+      type: string
+      required: true
+    - name: title
+      label: Nome do projeto
+      type: string
+      required: true
+    - name: category
+      label: Área
+      type: select
+      options:
+        values:
+        - name: design
+          label: Design
+        - name: websites
+          label: Websites
+    - name: type
+      label: "Tipo / marcador (ex.: PROJETO REAL, ESTUDO CONCEITUAL)"
+      type: string
+    - name: description
+      label: Descrição curta
+      type: text
+    - name: image
+      label: Imagem de capa
+      type: image
+      required: true
+    - name: link
+      label: Link para visitar projeto (opcional)
+      type: string
+    - name: featured
+      label: Mostrar na home
+      type: boolean
+      default: true
+    - name: visible
+      label: Publicado
+      type: boolean
+      default: true

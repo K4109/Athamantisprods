@@ -1,0 +1,25 @@
+{
+  "title": "IDENTIDADE EM",
+  "accent": "CADA DETALHE.",
+  "description": "Direção visual, peças gráficas e marcas. Os exemplos abaixo são conceituais.",
+  "projects": [
+    {
+      "id": "forma-identidade",
+      "title": "Forma / Identidade visual",
+      "category": "design",
+      "type": "ESTUDO CONCEITUAL",
+      "description": "Sistema visual, marca e aplicações editoriais. Projeto ilustrativo de demonstração.",
+      "image": "/assets/portfolio-premium-de-telas-para-lives.png",
+      "visible": true
+    },
+    {
+      "id": "materia-editorial",
+      "title": "Matéria / Direção de arte",
+      "category": "design",
+      "type": "ESTUDO CONCEITUAL",
+      "description": "Exploração de tipografia, composição e elementos gráficos. Projeto ilustrativo.",
+      "image": "/assets/pacote-de-overlays-sembol4.png",
+      "visible": true
+    }
+  ]
+}

@@ -8,15 +8,21 @@
       "packages": [
         {
           "label": "12 fotos",
-          "price": "R$ 120"
+          "price": "R$ 120",
+          "on_request": false,
+          "amount": 120.0
         },
         {
           "label": "18 fotos",
-          "price": "R$ 180"
+          "price": "R$ 180",
+          "on_request": false,
+          "amount": 180.0
         },
         {
           "label": "25 fotos",
-          "price": "R$ 250"
+          "price": "R$ 250",
+          "on_request": false,
+          "amount": 250.0
         }
       ],
       "category": "Fotografia",
@@ -30,15 +36,21 @@
       "packages": [
         {
           "label": "12 fotos",
-          "price": "R$ 120"
+          "price": "R$ 120",
+          "on_request": false,
+          "amount": 120.0
         },
         {
           "label": "18 fotos",
-          "price": "R$ 180"
+          "price": "R$ 180",
+          "on_request": false,
+          "amount": 180.0
         },
         {
           "label": "25 fotos",
-          "price": "R$ 250"
+          "price": "R$ 250",
+          "on_request": false,
+          "amount": 250.0
         }
       ],
       "category": "Fotografia",
@@ -52,15 +64,21 @@
       "packages": [
         {
           "label": "Até 2 horas",
-          "price": "R$ 250"
+          "price": "R$ 250",
+          "on_request": false,
+          "amount": 250.0
         },
         {
           "label": "Até 4 horas",
-          "price": "R$ 450"
+          "price": "R$ 450",
+          "on_request": false,
+          "amount": 450.0
         },
         {
           "label": "Até 6 horas",
-          "price": "R$ 650"
+          "price": "R$ 650",
+          "on_request": false,
+          "amount": 650.0
         }
       ],
       "category": "Fotografia",
@@ -74,15 +92,21 @@
       "packages": [
         {
           "label": "Até 5 produtos · 10 fotos",
-          "price": "R$ 180"
+          "price": "R$ 180",
+          "on_request": false,
+          "amount": 180.0
         },
         {
           "label": "Até 10 produtos · 20 fotos",
-          "price": "R$ 320"
+          "price": "R$ 320",
+          "on_request": false,
+          "amount": 320.0
         },
         {
           "label": "Até 15 produtos · 30 fotos",
-          "price": "R$ 450"
+          "price": "R$ 450",
+          "on_request": false,
+          "amount": 450.0
         }
       ],
       "category": "Fotografia",
@@ -96,15 +120,21 @@
       "packages": [
         {
           "label": "Até 1h · 15 fotos",
-          "price": "R$ 250"
+          "price": "R$ 250",
+          "on_request": false,
+          "amount": 250.0
         },
         {
           "label": "Até 2h · 30 fotos",
-          "price": "R$ 450"
+          "price": "R$ 450",
+          "on_request": false,
+          "amount": 450.0
         },
         {
           "label": "Até 3h · 45 fotos",
-          "price": "R$ 650"
+          "price": "R$ 650",
+          "on_request": false,
+          "amount": 650.0
         }
       ],
       "category": "Fotografia",
@@ -120,7 +150,8 @@
       "packages": [
         {
           "label": "Vídeo editado",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -134,7 +165,8 @@
       "packages": [
         {
           "label": "Projeto audiovisual",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -148,7 +180,8 @@
       "packages": [
         {
           "label": "Identidade visual",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -162,7 +195,8 @@
       "packages": [
         {
           "label": "Peças gráficas",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -176,7 +210,8 @@
       "packages": [
         {
           "label": "Website Essential",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -190,7 +225,8 @@
       "packages": [
         {
           "label": "Website Studio",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     },
@@ -204,7 +240,8 @@
       "packages": [
         {
           "label": "Website Signature",
-          "price": "Sob consulta"
+          "price": "Sob consulta",
+          "on_request": true
         }
       ]
     }

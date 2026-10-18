@@ -200,5 +200,6 @@
       "tall": false,
       "monochrome": false
     }
-  ]
+  ],
+  "photo_limit": 6
 }

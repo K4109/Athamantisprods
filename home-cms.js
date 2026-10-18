@@ -30,7 +30,7 @@
       const template = gallery.querySelector('button.project');
       if (!template) return;
       const fragment = document.createDocumentFragment();
-      data.photos.slice(0, 6).forEach(photo => {
+      data.photos.slice(0, Number.isInteger(data.photo_limit) && data.photo_limit >= 0 ? (data.photo_limit || data.photos.length) : 6).forEach(photo => {
         if (!photo || !assetsPath(photo.image)) return;
         const b = template.cloneNode(true);
         const title = String(photo.title || 'Fotografia');
@@ -58,3 +58,4 @@
     })
     .catch(err => console.warn('Athamantis: fotos da home indisponíveis; usando HTML original.', err));
 })();
+

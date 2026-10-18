@@ -1,0 +1,18 @@
+{
+  "fotografia": {
+    "image": "assets/bench.jpeg",
+    "position": "center"
+  },
+  "audiovisual": {
+    "image": "assets/video0.jpg",
+    "position": "center"
+  },
+  "design": {
+    "image": "/assets/portfolio-premium-de-telas-para-lives.png",
+    "position": "center"
+  },
+  "websites": {
+    "image": "assets/ath-web-conceito-01.svg",
+    "position": "center"
+  }
+}

@@ -16,16 +16,20 @@ const hash=location.hash.slice(1);
 if(hash.startsWith('portfolio-'))choose(hash.replace('portfolio-',''),false);
 const grids={design:document.querySelector('[data-projects="design"]'),websites:document.querySelector('[data-projects="websites"]')};
 function imagePath(v){const s=String(v||'');return /^(?:\/?assets\/)[\w.\-/]+\.(?:png|jpg|jpeg|webp|avif|svg)$/i.test(s)&&!s.includes('..')?s:''}
-function safeLink(value){try{const u=new URL(value,location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}}
-function render(data){if(!Array.isArray(data?.projects))return;
+function safeLink(value){if(typeof value!=='string'||!value.trim())return '';try{const u=new URL(value,location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}}
+function render(data, onlyCategory){if(!Array.isArray(data?.projects))return;
  for(const category of Object.keys(grids)){
+ if(onlyCategory && category!==onlyCategory)continue;
+ const panel=document.querySelector('#portfolio-'+category);
+ if(typeof data.title==='string'){const em=document.createElement('em');em.textContent=data.accent||'';panel.querySelector('h3').replaceChildren(document.createTextNode(data.title+' '),em);}
+ if(typeof data.description==='string')panel.querySelector('.ath-panel-head p').textContent=data.description;
  const grid=grids[category];if(!grid)continue;
- const items=data.projects.filter(p=>p?.category===category && p.visible!==false && p.featured!==false && p.title && imagePath(p.image));
+ const items=data.projects.filter(p=>p && (onlyCategory || p.category===category) && p.visible!==false && p.featured!==false && p.title && imagePath(p.image));
  if(!items.length){grid.textContent='Novos projetos serão apresentados em breve.';continue}
  grid.replaceChildren();
  for(const item of items){
    const article=document.createElement('article');article.className='ath-case-card';
-   const figure=document.createElement('figure');const img=document.createElement('img');img.src=imagePath(item.image);img.alt=item.title;img.loading='lazy';figure.append(img);
+   const figure=document.createElement('figure');const img=document.createElement('img');img.src=imagePath(item.image);img.alt=item.alt||item.title;img.addEventListener('error',()=>{img.style.visibility='hidden'});img.loading='lazy';figure.append(img);
    const block=document.createElement('div');block.className='ath-case-content';
    const label=document.createElement('small');label.textContent=item.type||'PROJETO';
    const heading=document.createElement('h4');heading.textContent=item.title;
@@ -37,5 +41,5 @@ function render(data){if(!Array.isArray(data?.projects))return;
  }
 }
 // Fallback real no HTML permite abrir o ZIP com dois cliques. No Cloudflare, dados do CMS prevalecem.
-if(location.protocol!=='file:')fetch('data/ath-projects.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(render).catch(e=>console.info('Usando projetos do HTML de exemplo:',e.message));
+if(location.protocol!=='file:')for(const category of Object.keys(grids)){fetch('data/ath-'+category+'.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>render(data,category)).catch(e=>console.info('Usando projetos do HTML:',e.message));}
 })();

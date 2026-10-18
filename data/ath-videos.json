@@ -1,0 +1,25 @@
+{
+  "title": "O INSTANTE GANHA",
+  "accent": "MOVIMENTO.",
+  "description": "Filmes e vídeos do portfólio original da Athamantis.",
+  "videos": [
+    {
+      "title": "FILME 01 / ATHAMANTIS",
+      "image": "assets/video0.jpg",
+      "url": "https://vimeo.com/1002995716",
+      "visible": true
+    },
+    {
+      "title": "FILME 02 / ATHAMANTIS",
+      "image": "assets/video1.jpg",
+      "url": "https://vimeo.com/1002999043",
+      "visible": true
+    },
+    {
+      "title": "FILME 03 / ATHAMANTIS",
+      "image": "assets/video2.jpg",
+      "url": "https://vimeo.com/1021811177",
+      "visible": true
+    }
+  ]
+}

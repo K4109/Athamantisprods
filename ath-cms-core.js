@@ -18,6 +18,7 @@
     return (/^(?:\.\/)?[a-zA-Z0-9][^?#]*\.(?:png|jpe?g|webp|avif|gif)(?:[?#].*)?$/i.test(value) && !value.includes('..')) ? value : '';
   };
   const safeUrl = (input) => {
+    if(!String(input||'').trim())return '';
     try { const u=new URL(String(input||''), location.href);return ['http:','https:'].includes(u.protocol) ? u.href : ''; }
     catch{return '';}
   };
@@ -51,7 +52,7 @@
     setText('#servicos .service-intro',d.services_description);
     setText('#contato .contact-grid > div:first-child > p',d.contact_description,true);
     const toggles=[['show_team','#kaio'],['show_services','#servicos'],['show_videos','#videos'],['show_reviews','#ath-reviews']];
-    toggles.forEach(([key,sel])=>{if(typeof d[key]==='boolean'){const el=$(sel);if(el)el.hidden=!d[key];}});
+    toggles.forEach(([key,sel])=>{if(typeof d[key]==='boolean'){const el=$(sel);if(el){el.hidden=!d[key];if(sel==='#servicos')el.classList.toggle('ath-legacy-section',!d[key]);}}});
     window.athCmsFlags={...d};
   }
   function $$(selector,root=document){return Array.from(root.querySelectorAll(selector));}
@@ -115,6 +116,7 @@
   }
   function applyServices(d){
     const root=$('#packages'); if(!root || !d || !Array.isArray(d.services))return;
+    d.services=d.services.map(s=>({...s,packages:(s.packages||[]).map(p=>({...p,price:typeof p.on_request==='boolean'?(p.on_request?'Sob consulta':(typeof p.amount==='number' && p.amount>=0?new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'}).format(p.amount):'Sob consulta')):p.price}))}));
     const list=d.services.filter(s=>s && s.visible!==false && s.name);
     if(!list.length)return; // Se lista for vazia, mantem os pacotes originais.
     const fragment=document.createDocumentFragment();
@@ -131,7 +133,7 @@
         card.append(make('small','', ['INICIAL','INTERMEDIÁRIO','COMPLETO'][j] || 'OPÇÃO '+(j+1)));
         card.append(make('strong','',pkg.price || 'SOB CONSULTA'));
         card.append(make('p','',pkg.label));
-        const a=make('a','','Quero esse pacote ↗');a.href='#contato';
+        const a=make('a','','Quero esse pacote ↗');a.href='monte-seu-projeto.html?servico='+encodeURIComponent(service.name);
         a.dataset.service=service.name;a.dataset.package=pkg.label+' — '+(pkg.price || 'Sob consulta');
         a.addEventListener('click',()=>{
           const form=$('#brief');if(!form)return;
@@ -169,8 +171,9 @@
   Promise.all([
     getJson('data/ath-home-texts.json'),getJson('data/ath-team.json'),
     getJson('data/ath-settings.json'),getJson('data/ath-services.json'),
-    getJson('data/ath-testimonials.json')
-  ]).then(([home,team,settings,services,testimonials])=>{
-    applyHome(home);applyTeam(team);applySettings(settings);applyServices(services);applyTestimonials(testimonials);
+    getJson('data/ath-testimonials.json'),getJson('data/ath-about.json')
+  ]).then(([home,team,settings,services,testimonials,about])=>{
+    applyHome({...home,...about});applyTeam(team);applySettings(settings);applyServices(services);applyTestimonials(testimonials);
   });
 })();
+

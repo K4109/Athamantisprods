@@ -4,21 +4,18 @@
   "description": "Interfaces, landing pages e portfólios. Exemplos conceituais nesta prévia.",
   "projects": [
     {
-      "id": "studio-website",
       "title": "Studio / Landing page",
-      "category": "websites",
       "type": "ESTUDO CONCEITUAL",
       "description": "Layout de página de apresentação com foco em leitura e conversão. Projeto ilustrativo.",
-      "image": "/assets/ath-web-conceito-01.svg",
+      "image": "/assets/athamantis-em-desktop-e-mobile.png",
+      "link": "https://athamantisprods.pages.dev/",
       "visible": true
     },
     {
-      "id": "portfolio-digital",
       "title": "Olhar / Portfólio digital",
-      "category": "websites",
       "type": "ESTUDO CONCEITUAL",
       "description": "Experiência editorial para mostrar trabalhos em desktop e celular. Projeto ilustrativo.",
-      "image": "/assets/ath-web-conceito-02.svg",
+      "image": "/assets/athamantis-em-desktop-e-mobile-1.png",
       "visible": true
     }
   ]

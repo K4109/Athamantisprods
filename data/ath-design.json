@@ -4,21 +4,18 @@
   "description": "Direção visual, peças gráficas e marcas. Os exemplos abaixo são conceituais.",
   "projects": [
     {
-      "id": "forma-identidade",
       "title": "Forma / Identidade visual",
-      "category": "design",
       "type": "ESTUDO CONCEITUAL",
       "description": "Sistema visual, marca e aplicações editoriais. Projeto ilustrativo de demonstração.",
       "image": "/assets/portfolio-premium-de-telas-para-lives.png",
+      "link": "https://www.behance.net/gallery/199516639/OVERLAY-TWITCH-E-TIKTOK-COMPLETO",
       "visible": true
     },
     {
-      "id": "materia-editorial",
       "title": "Matéria / Direção de arte",
-      "category": "design",
       "type": "ESTUDO CONCEITUAL",
       "description": "Exploração de tipografia, composição e elementos gráficos. Projeto ilustrativo.",
-      "image": "/assets/pacote-de-overlays-sembol4.png",
+      "image": "/assets/4ff09920662322366cf7252a460e.jpg",
       "visible": true
     }
   ]
